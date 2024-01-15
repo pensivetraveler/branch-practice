@@ -1,7 +1,7 @@
-from random import sample
+from random import choice
 
 def get_luckies() -> list:
-    return sample(range, 1, 45+1), k=6)
+    return [choice(range(1,45+1)) for _ in range(6)]
 
 if __name__ == '__main__':
     print(get_luckies())
