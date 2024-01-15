@@ -7,6 +7,16 @@ def get_randint() -> list:
 def get_choice() -> list:
     return [choice(range(1,50+1)) for _ in range(6)]
 
+fruits = [
+	'apple',
+	'banna',
+]
+
+foods = [
+	'pasta',
+	'pizza',
+]
+
 if __name__ == '__main__':
     print(get_randint())
     print(get_choice())
