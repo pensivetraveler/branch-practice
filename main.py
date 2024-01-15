@@ -10,7 +10,7 @@ def get_choice() -> list:
 fruits = [
 	'apple',
 	'banna',
-	'pineapple'
+	'kiwi'
 ]
 
 foods = [
