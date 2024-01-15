@@ -17,6 +17,7 @@ foods = [
 	'pasta',
 	'pizza',
 	'stew',
+	'steak',
 ]
 
 if __name__ == '__main__':
